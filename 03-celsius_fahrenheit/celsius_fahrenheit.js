@@ -15,8 +15,18 @@ const getFahrenheit=(celsius)=>{
 
     
 
-console.log(getFahrenheit(10)) // call getFahrenheit();
+console.log(getFahrenheit(5)) // call getFahrenheit();
 
 
 // do the same thing starting from Fahrenheit to Celsius
+const deduction =farehneit=>{
+    return(farehneit-32)
+}
+const converTocelsius=multiply=>{
 
+    return (deduction(multiply)*5/9)
+
+
+}
+
+console.log(converTocelsius(4))
